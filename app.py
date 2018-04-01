@@ -1,8 +1,8 @@
 from flask import Flask, render_template, Response
 from datetime import datetime
 import tensorflow as tf
-import cv2
 import numpy as np
+import cv2
 
 app = Flask(__name__)
 
